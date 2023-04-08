@@ -1,0 +1,32 @@
+#### .gitignore
+
+testarea/
+.ipynb_checkpoints/
+*.ipynb
+*.csv
+*.xls
+*.xlsx
+*.d2v
+*.w2v
+*.npy
+*.pickle
+*.pkl
+*.db
+*.gexf
+*.svg
+*.png
+*.mat
+*.bin
+*.vec
+*.tar.gz
+*.tar.xz
+*.gz
+*.xz
+*.zip
+*.nogit
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
