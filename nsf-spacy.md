@@ -1,3 +1,5 @@
+[[Back to index]](./index.html)
+
 Before we start to examine the keywords that have been emerging in the NSF Grant data set in the last few years, we do some preprocessing on the abstract texts with the [spaCy NLP library](https://spacy.io).
 
 
@@ -72,3 +74,5 @@ create_csv(outfile)
 ```
 
 After the processing is complete, [we can try to identify some keywords that have been emerging in the last few years.](./topwords.html)
+ 
+[[Back to index]](./index.html)

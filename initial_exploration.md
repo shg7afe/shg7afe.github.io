@@ -1,3 +1,5 @@
+[[Back to index]](./index.html)
+
 We start by retrieving the NSF Grant data files. The grant data, including abstracts of the funded projects, are available as zipped XML files on the [NSF web pages](https://www.nsf.gov/awardsearch/download.jsp). We download the data and extract the relevant parts with `BeautifulSoup`. Since the zip files are rather large and need a lot of memory, we work with one zip file at a time and append the results to an uncompressed CSV file.
 
 
@@ -617,3 +619,5 @@ plt.show()
 
 
 Next we try to identify some keywords that have been emerging in the last few years. Before that, [we will do some simple preprocessing of the abstract texts with spaCy](./nsf-spacy.html).
+ 
+[[Back to index]](./index.html)

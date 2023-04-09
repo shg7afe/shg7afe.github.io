@@ -1,3 +1,5 @@
+[[Back to index]](./index.html)
+
 This is a small example of visualisation of the occurrence of selected keywords in the scientific abstracts of grant proposals in different research fields / directorates. It relies only on `pandas`, `numpy`, `matplotlib` and `seaborn`.
 
 
@@ -186,3 +188,5 @@ plt.plot();
 ![png](keyword_occurrences_files/keyword_occurrences_13_0.png)
     
 
+ 
+[[Back to index]](./index.html)

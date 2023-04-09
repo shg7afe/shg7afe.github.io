@@ -1,3 +1,5 @@
+[[Back to index]](./index.html)
+
 The aim of the following exercise is to examine the NSF Grant data set and identify keywords that have been emerging during the last few years. We employ some statistical measures in order to capture keywords that have high relevance, i.e., they are not too common or too specific in the data set.
 
 
@@ -410,5 +412,6 @@ with open(outfile, 'w') as f:
 
 
 
-
 [Next, we visualise the occurrence of different keywords in different directorates.](./keyword_occurrences.html)
+ 
+[[Back to index]](./index.html)
