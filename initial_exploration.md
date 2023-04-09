@@ -230,6 +230,8 @@ df.groupby('directorate').count()['abstract']
 
 
 
+In total, we have over 100k abstracts in our data set. 
+
 
 ```python
 df.shape
@@ -242,7 +244,7 @@ df.shape
 
 
 
-The number of grants per directorate and year.
+We can cross-tabulate the number of grants per directorate and year.
 
 
 ```python
@@ -560,19 +562,12 @@ The model has learned to separate Geosciences and Social, Behavioral & Economic 
 
 ```python
 sns.heatmap(cfm, cmap='Blues', annot=True, fmt='.1f', xticklabels=directorates, yticklabels=directorates)
-plt.plot()
+plt.plot();
 ```
 
 
-
-
-    []
-
-
-
-
     
-![png](initial_exploration_files/initial_exploration_27_1.png)
+![png](initial_exploration_files/initial_exploration_28_0.png)
     
 
 
@@ -617,7 +612,7 @@ plt.show()
 
 
     
-![png](initial_exploration_files/initial_exploration_33_0.png)
+![png](initial_exploration_files/initial_exploration_34_0.png)
     
 
 

@@ -335,14 +335,14 @@ model.wv.most_similar('covid')
 
 
 
-Save the model for later use.
+Save the model for later use:
 
 
 ```python
 model.wv.save('nsf100-v2.w2v')
 ```
 
-Load the model from disk.
+Load the model from disk:
 
 
 ```python
@@ -407,6 +407,7 @@ with open(outfile, 'w') as f:
     seamless="seamless"
     frameborder="0">
 </iframe>
+
 
 
 

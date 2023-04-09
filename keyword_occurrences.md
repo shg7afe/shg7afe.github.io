@@ -178,23 +178,11 @@ fig, (ax1, ax2, ax3) = plt.subplots(3, figsize=[12,12], constrained_layout=True)
 heatmap_years('machine learning', 'Blues', ax1)
 heatmap_years('climate change', 'Greens', ax2)
 heatmap_years('covid', 'Purples', ax3)
-plt.plot()
+plt.plot();
 ```
 
 
-
-
-    []
-
-
-
-
     
-![png](keyword_occurrences_files/keyword_occurrences_13_1.png)
+![png](keyword_occurrences_files/keyword_occurrences_13_0.png)
     
 
-
-
-```python
-
-```
